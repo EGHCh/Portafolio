@@ -1,0 +1,44 @@
+*, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero {
+    background-image: url("../img/bg_hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 750px;
+    vertical-align: text-bottom;
+    padding-top: 550px;
+    text-shadow: 2,2,2,2,0.3 #000000;
+}
+.morado {
+    background-color: #660066;
+}
+.oswald {
+    font-family: 'Oswald';
+}
+.divider {
+    height: 5px;
+    width: 150px;
+}
+.carousel-photo {
+    min-height: 100%;
+}
+.carousel-indicators {
+    top: 360px;
+}
+.carousel-indicators li {
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding-top: 30%;
+    }
+}
