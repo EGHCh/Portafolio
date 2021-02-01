@@ -5,17 +5,17 @@
 }
 
 .hero {
-    background-image: url("../img/bg_hero.png");
+    background-image: url("../img/bg_hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 750px;
+    min-height: 900px;
     vertical-align: text-bottom;
     padding-top: 550px;
-    text-shadow: 2,2,2,2,0.3 #000000;
+    text-shadow:  1px 1px 10px rgba(0, 0, 0, 0.7);
 }
-.morado {
-    background-color: #660066;
+.navy-blue {
+    background-color: #152238;
 }
 .oswald {
     font-family: 'Oswald';
@@ -23,6 +23,10 @@
 .divider {
     height: 5px;
     width: 150px;
+    background-color: rgb(21, 34, 56);
+}
+.ico-color {
+    color: #152238;
 }
 .carousel-photo {
     min-height: 100%;
